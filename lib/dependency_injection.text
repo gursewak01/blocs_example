@@ -1,0 +1,12 @@
+Dependency Injection (DI) is a design pattern used to implement IoC (Inversion of Control). 
+It allows for better management of dependencies, improved testability, and more maintainable code. 
+In Flutter, DI can be achieved using packages like provider or get_it.
+
+Without DI: Each widget or class that needs an instance of CounterBloc has to create it manually.
+With DI: CounterBloc is created in a centralized location (the root of the widget tree), 
+         and all widgets that need it can access it without creating their own instance.
+
+Without DI: Testing individual widgets or classes becomes harder because you have to handle dependencies manually,
+            often needing to mock or stub them.
+With DI: You can easily inject mock or test versions of dependencies during testing, 
+         simplifying the setup of unit tests and making them more reliable.

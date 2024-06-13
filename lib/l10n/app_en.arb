@@ -1,0 +1,6 @@
+{
+  "locale": "en",
+  "appTitle": "Counter App",
+  "increment": "Increment",
+  "counterText": "Counter: {count}"
+}

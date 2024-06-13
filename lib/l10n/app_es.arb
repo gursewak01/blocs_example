@@ -1,0 +1,6 @@
+{
+  "locale": "es",
+  "appTitle": "Aplicación de Contador",
+  "increment": "Incrementar",
+  "counterText": "Contador: {count}"
+}
